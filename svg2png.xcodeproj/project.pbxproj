@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE193CD1B95832100DBA3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193CC1B95832100DBA3A4 /* AppDelegate.m */; };
+		CCE193CF1B95832100DBA3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193CE1B95832100DBA3A4 /* main.m */; };
+		CCE193D21B95832100DBA3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193D11B95832100DBA3A4 /* ViewController.m */; };
+		CCE193D41B95832100DBA3A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE193D31B95832100DBA3A4 /* Images.xcassets */; };
+		CCE193D71B95832100DBA3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE193D51B95832100DBA3A4 /* Main.storyboard */; };
+		CCE193E31B95832100DBA3A4 /* svg2pngTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193E21B95832100DBA3A4 /* svg2pngTests.m */; };
+		CCE193EE1B958C7800DBA3A4 /* DragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193ED1B958C7800DBA3A4 /* DragImageView.m */; };
+		CCE1942A1B9590F500DBA3A4 /* IJSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193F11B9590F500DBA3A4 /* IJSVG.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1942B1B9590F500DBA3A4 /* IJSVGBezierPathAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193F31B9590F500DBA3A4 /* IJSVGBezierPathAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1942C1B9590F500DBA3A4 /* IJSVGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193F51B9590F500DBA3A4 /* IJSVGCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1942D1B9590F500DBA3A4 /* IJSVGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193F71B9590F500DBA3A4 /* IJSVGColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1942E1B9590F500DBA3A4 /* IJSVGCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193F91B9590F500DBA3A4 /* IJSVGCommand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1942F1B9590F500DBA3A4 /* IJSVGCommandArc.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193FB1B9590F500DBA3A4 /* IJSVGCommandArc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194301B9590F500DBA3A4 /* IJSVGCommandClose.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193FD1B9590F500DBA3A4 /* IJSVGCommandClose.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194311B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE193FF1B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194321B9590F500DBA3A4 /* IJSVGCommandCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194011B9590F500DBA3A4 /* IJSVGCommandCurve.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194331B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194031B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194341B9590F500DBA3A4 /* IJSVGCommandLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194051B9590F500DBA3A4 /* IJSVGCommandLineTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194351B9590F500DBA3A4 /* IJSVGCommandMove.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194071B9590F500DBA3A4 /* IJSVGCommandMove.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194361B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194091B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194371B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1940B1B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194381B9590F500DBA3A4 /* IJSVGCommandVerticalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1940D1B9590F500DBA3A4 /* IJSVGCommandVerticalLine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194391B9590F500DBA3A4 /* IJSVGDef.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1940F1B9590F500DBA3A4 /* IJSVGDef.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943A1B9590F500DBA3A4 /* IJSVGFontConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194111B9590F500DBA3A4 /* IJSVGFontConverter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943B1B9590F500DBA3A4 /* IJSVGForeignObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194131B9590F500DBA3A4 /* IJSVGForeignObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943C1B9590F500DBA3A4 /* IJSVGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194151B9590F500DBA3A4 /* IJSVGGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943D1B9590F500DBA3A4 /* IJSVGGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194171B9590F500DBA3A4 /* IJSVGGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943E1B9590F500DBA3A4 /* IJSVGLinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194191B9590F500DBA3A4 /* IJSVGLinearGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1943F1B9590F500DBA3A4 /* IJSVGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1941B1B9590F500DBA3A4 /* IJSVGNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194401B9590F500DBA3A4 /* IJSVGParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1941D1B9590F500DBA3A4 /* IJSVGParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194411B9590F500DBA3A4 /* IJSVGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1941F1B9590F500DBA3A4 /* IJSVGPath.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194421B9590F500DBA3A4 /* IJSVGRadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194211B9590F500DBA3A4 /* IJSVGRadialGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194431B9590F500DBA3A4 /* IJSVGStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194231B9590F500DBA3A4 /* IJSVGStyle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194441B9590F500DBA3A4 /* IJSVGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194251B9590F500DBA3A4 /* IJSVGTransform.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194451B9590F500DBA3A4 /* IJSVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194271B9590F500DBA3A4 /* IJSVGUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194461B9590F500DBA3A4 /* IJSVGWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194291B9590F500DBA3A4 /* IJSVGWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE194491B959B7B00DBA3A4 /* DragTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194481B959B7B00DBA3A4 /* DragTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCE193DD1B95832100DBA3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCE193BE1B95832100DBA3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE193C51B95832100DBA3A4;
+			remoteInfo = svg2png;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCE193C61B95832100DBA3A4 /* svg2png.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = svg2png.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE193CA1B95832100DBA3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE193CB1B95832100DBA3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCE193CC1B95832100DBA3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCE193CE1B95832100DBA3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE193D01B95832100DBA3A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCE193D11B95832100DBA3A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCE193D31B95832100DBA3A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCE193D61B95832100DBA3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCE193DC1B95832100DBA3A4 /* svg2pngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = svg2pngTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE193E11B95832100DBA3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE193E21B95832100DBA3A4 /* svg2pngTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = svg2pngTests.m; sourceTree = "<group>"; };
+		CCE193EC1B958C7800DBA3A4 /* DragImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImageView.h; sourceTree = "<group>"; };
+		CCE193ED1B958C7800DBA3A4 /* DragImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImageView.m; sourceTree = "<group>"; };
+		CCE193F01B9590F500DBA3A4 /* IJSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVG.h; sourceTree = "<group>"; };
+		CCE193F11B9590F500DBA3A4 /* IJSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVG.m; sourceTree = "<group>"; };
+		CCE193F21B9590F500DBA3A4 /* IJSVGBezierPathAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGBezierPathAdditions.h; sourceTree = "<group>"; };
+		CCE193F31B9590F500DBA3A4 /* IJSVGBezierPathAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGBezierPathAdditions.m; sourceTree = "<group>"; };
+		CCE193F41B9590F500DBA3A4 /* IJSVGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCache.h; sourceTree = "<group>"; };
+		CCE193F51B9590F500DBA3A4 /* IJSVGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCache.m; sourceTree = "<group>"; };
+		CCE193F61B9590F500DBA3A4 /* IJSVGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGColor.h; sourceTree = "<group>"; };
+		CCE193F71B9590F500DBA3A4 /* IJSVGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGColor.m; sourceTree = "<group>"; };
+		CCE193F81B9590F500DBA3A4 /* IJSVGCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommand.h; sourceTree = "<group>"; };
+		CCE193F91B9590F500DBA3A4 /* IJSVGCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommand.m; sourceTree = "<group>"; };
+		CCE193FA1B9590F500DBA3A4 /* IJSVGCommandArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandArc.h; sourceTree = "<group>"; };
+		CCE193FB1B9590F500DBA3A4 /* IJSVGCommandArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandArc.m; sourceTree = "<group>"; };
+		CCE193FC1B9590F500DBA3A4 /* IJSVGCommandClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandClose.h; sourceTree = "<group>"; };
+		CCE193FD1B9590F500DBA3A4 /* IJSVGCommandClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandClose.m; sourceTree = "<group>"; };
+		CCE193FE1B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandCommandSmoothQuadraticCurve.h; sourceTree = "<group>"; };
+		CCE193FF1B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandCommandSmoothQuadraticCurve.m; sourceTree = "<group>"; };
+		CCE194001B9590F500DBA3A4 /* IJSVGCommandCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandCurve.h; sourceTree = "<group>"; };
+		CCE194011B9590F500DBA3A4 /* IJSVGCommandCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandCurve.m; sourceTree = "<group>"; };
+		CCE194021B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandHorizontalLine.h; sourceTree = "<group>"; };
+		CCE194031B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandHorizontalLine.m; sourceTree = "<group>"; };
+		CCE194041B9590F500DBA3A4 /* IJSVGCommandLineTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandLineTo.h; sourceTree = "<group>"; };
+		CCE194051B9590F500DBA3A4 /* IJSVGCommandLineTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandLineTo.m; sourceTree = "<group>"; };
+		CCE194061B9590F500DBA3A4 /* IJSVGCommandMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandMove.h; sourceTree = "<group>"; };
+		CCE194071B9590F500DBA3A4 /* IJSVGCommandMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandMove.m; sourceTree = "<group>"; };
+		CCE194081B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandQuadraticCurve.h; sourceTree = "<group>"; };
+		CCE194091B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandQuadraticCurve.m; sourceTree = "<group>"; };
+		CCE1940A1B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandSmoothCurve.h; sourceTree = "<group>"; };
+		CCE1940B1B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandSmoothCurve.m; sourceTree = "<group>"; };
+		CCE1940C1B9590F500DBA3A4 /* IJSVGCommandVerticalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGCommandVerticalLine.h; sourceTree = "<group>"; };
+		CCE1940D1B9590F500DBA3A4 /* IJSVGCommandVerticalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGCommandVerticalLine.m; sourceTree = "<group>"; };
+		CCE1940E1B9590F500DBA3A4 /* IJSVGDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGDef.h; sourceTree = "<group>"; };
+		CCE1940F1B9590F500DBA3A4 /* IJSVGDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGDef.m; sourceTree = "<group>"; };
+		CCE194101B9590F500DBA3A4 /* IJSVGFontConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGFontConverter.h; sourceTree = "<group>"; };
+		CCE194111B9590F500DBA3A4 /* IJSVGFontConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGFontConverter.m; sourceTree = "<group>"; };
+		CCE194121B9590F500DBA3A4 /* IJSVGForeignObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGForeignObject.h; sourceTree = "<group>"; };
+		CCE194131B9590F500DBA3A4 /* IJSVGForeignObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGForeignObject.m; sourceTree = "<group>"; };
+		CCE194141B9590F500DBA3A4 /* IJSVGGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGGradient.h; sourceTree = "<group>"; };
+		CCE194151B9590F500DBA3A4 /* IJSVGGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGGradient.m; sourceTree = "<group>"; };
+		CCE194161B9590F500DBA3A4 /* IJSVGGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGGroup.h; sourceTree = "<group>"; };
+		CCE194171B9590F500DBA3A4 /* IJSVGGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGGroup.m; sourceTree = "<group>"; };
+		CCE194181B9590F500DBA3A4 /* IJSVGLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGLinearGradient.h; sourceTree = "<group>"; };
+		CCE194191B9590F500DBA3A4 /* IJSVGLinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGLinearGradient.m; sourceTree = "<group>"; };
+		CCE1941A1B9590F500DBA3A4 /* IJSVGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGNode.h; sourceTree = "<group>"; };
+		CCE1941B1B9590F500DBA3A4 /* IJSVGNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGNode.m; sourceTree = "<group>"; };
+		CCE1941C1B9590F500DBA3A4 /* IJSVGParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGParser.h; sourceTree = "<group>"; };
+		CCE1941D1B9590F500DBA3A4 /* IJSVGParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGParser.m; sourceTree = "<group>"; };
+		CCE1941E1B9590F500DBA3A4 /* IJSVGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGPath.h; sourceTree = "<group>"; };
+		CCE1941F1B9590F500DBA3A4 /* IJSVGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGPath.m; sourceTree = "<group>"; };
+		CCE194201B9590F500DBA3A4 /* IJSVGRadialGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGRadialGradient.h; sourceTree = "<group>"; };
+		CCE194211B9590F500DBA3A4 /* IJSVGRadialGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGRadialGradient.m; sourceTree = "<group>"; };
+		CCE194221B9590F500DBA3A4 /* IJSVGStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGStyle.h; sourceTree = "<group>"; };
+		CCE194231B9590F500DBA3A4 /* IJSVGStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGStyle.m; sourceTree = "<group>"; };
+		CCE194241B9590F500DBA3A4 /* IJSVGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGTransform.h; sourceTree = "<group>"; };
+		CCE194251B9590F500DBA3A4 /* IJSVGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGTransform.m; sourceTree = "<group>"; };
+		CCE194261B9590F500DBA3A4 /* IJSVGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGUtils.h; sourceTree = "<group>"; };
+		CCE194271B9590F500DBA3A4 /* IJSVGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGUtils.m; sourceTree = "<group>"; };
+		CCE194281B9590F500DBA3A4 /* IJSVGWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJSVGWriter.h; sourceTree = "<group>"; };
+		CCE194291B9590F500DBA3A4 /* IJSVGWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJSVGWriter.m; sourceTree = "<group>"; };
+		CCE194471B959B7B00DBA3A4 /* DragTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTextField.h; sourceTree = "<group>"; };
+		CCE194481B959B7B00DBA3A4 /* DragTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE193C31B95832100DBA3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE193D91B95832100DBA3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE193BD1B95832100DBA3A4 = {
+			isa = PBXGroup;
+			children = (
+				CCE193C81B95832100DBA3A4 /* svg2png */,
+				CCE193DF1B95832100DBA3A4 /* svg2pngTests */,
+				CCE193C71B95832100DBA3A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE193C71B95832100DBA3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193C61B95832100DBA3A4 /* svg2png.app */,
+				CCE193DC1B95832100DBA3A4 /* svg2pngTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE193C81B95832100DBA3A4 /* svg2png */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193EF1B9590F500DBA3A4 /* source */,
+				CCE193CB1B95832100DBA3A4 /* AppDelegate.h */,
+				CCE193CC1B95832100DBA3A4 /* AppDelegate.m */,
+				CCE193D01B95832100DBA3A4 /* ViewController.h */,
+				CCE193D11B95832100DBA3A4 /* ViewController.m */,
+				CCE193D31B95832100DBA3A4 /* Images.xcassets */,
+				CCE193D51B95832100DBA3A4 /* Main.storyboard */,
+				CCE193C91B95832100DBA3A4 /* Supporting Files */,
+				CCE193EC1B958C7800DBA3A4 /* DragImageView.h */,
+				CCE193ED1B958C7800DBA3A4 /* DragImageView.m */,
+				CCE194471B959B7B00DBA3A4 /* DragTextField.h */,
+				CCE194481B959B7B00DBA3A4 /* DragTextField.m */,
+			);
+			path = svg2png;
+			sourceTree = "<group>";
+		};
+		CCE193C91B95832100DBA3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193CA1B95832100DBA3A4 /* Info.plist */,
+				CCE193CE1B95832100DBA3A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE193DF1B95832100DBA3A4 /* svg2pngTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193E21B95832100DBA3A4 /* svg2pngTests.m */,
+				CCE193E01B95832100DBA3A4 /* Supporting Files */,
+			);
+			path = svg2pngTests;
+			sourceTree = "<group>";
+		};
+		CCE193E01B95832100DBA3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193E11B95832100DBA3A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE193EF1B9590F500DBA3A4 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CCE193F01B9590F500DBA3A4 /* IJSVG.h */,
+				CCE193F11B9590F500DBA3A4 /* IJSVG.m */,
+				CCE193F21B9590F500DBA3A4 /* IJSVGBezierPathAdditions.h */,
+				CCE193F31B9590F500DBA3A4 /* IJSVGBezierPathAdditions.m */,
+				CCE193F41B9590F500DBA3A4 /* IJSVGCache.h */,
+				CCE193F51B9590F500DBA3A4 /* IJSVGCache.m */,
+				CCE193F61B9590F500DBA3A4 /* IJSVGColor.h */,
+				CCE193F71B9590F500DBA3A4 /* IJSVGColor.m */,
+				CCE193F81B9590F500DBA3A4 /* IJSVGCommand.h */,
+				CCE193F91B9590F500DBA3A4 /* IJSVGCommand.m */,
+				CCE193FA1B9590F500DBA3A4 /* IJSVGCommandArc.h */,
+				CCE193FB1B9590F500DBA3A4 /* IJSVGCommandArc.m */,
+				CCE193FC1B9590F500DBA3A4 /* IJSVGCommandClose.h */,
+				CCE193FD1B9590F500DBA3A4 /* IJSVGCommandClose.m */,
+				CCE193FE1B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.h */,
+				CCE193FF1B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.m */,
+				CCE194001B9590F500DBA3A4 /* IJSVGCommandCurve.h */,
+				CCE194011B9590F500DBA3A4 /* IJSVGCommandCurve.m */,
+				CCE194021B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.h */,
+				CCE194031B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.m */,
+				CCE194041B9590F500DBA3A4 /* IJSVGCommandLineTo.h */,
+				CCE194051B9590F500DBA3A4 /* IJSVGCommandLineTo.m */,
+				CCE194061B9590F500DBA3A4 /* IJSVGCommandMove.h */,
+				CCE194071B9590F500DBA3A4 /* IJSVGCommandMove.m */,
+				CCE194081B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.h */,
+				CCE194091B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.m */,
+				CCE1940A1B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.h */,
+				CCE1940B1B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.m */,
+				CCE1940C1B9590F500DBA3A4 /* IJSVGCommandVerticalLine.h */,
+				CCE1940D1B9590F500DBA3A4 /* IJSVGCommandVerticalLine.m */,
+				CCE1940E1B9590F500DBA3A4 /* IJSVGDef.h */,
+				CCE1940F1B9590F500DBA3A4 /* IJSVGDef.m */,
+				CCE194101B9590F500DBA3A4 /* IJSVGFontConverter.h */,
+				CCE194111B9590F500DBA3A4 /* IJSVGFontConverter.m */,
+				CCE194121B9590F500DBA3A4 /* IJSVGForeignObject.h */,
+				CCE194131B9590F500DBA3A4 /* IJSVGForeignObject.m */,
+				CCE194141B9590F500DBA3A4 /* IJSVGGradient.h */,
+				CCE194151B9590F500DBA3A4 /* IJSVGGradient.m */,
+				CCE194161B9590F500DBA3A4 /* IJSVGGroup.h */,
+				CCE194171B9590F500DBA3A4 /* IJSVGGroup.m */,
+				CCE194181B9590F500DBA3A4 /* IJSVGLinearGradient.h */,
+				CCE194191B9590F500DBA3A4 /* IJSVGLinearGradient.m */,
+				CCE1941A1B9590F500DBA3A4 /* IJSVGNode.h */,
+				CCE1941B1B9590F500DBA3A4 /* IJSVGNode.m */,
+				CCE1941C1B9590F500DBA3A4 /* IJSVGParser.h */,
+				CCE1941D1B9590F500DBA3A4 /* IJSVGParser.m */,
+				CCE1941E1B9590F500DBA3A4 /* IJSVGPath.h */,
+				CCE1941F1B9590F500DBA3A4 /* IJSVGPath.m */,
+				CCE194201B9590F500DBA3A4 /* IJSVGRadialGradient.h */,
+				CCE194211B9590F500DBA3A4 /* IJSVGRadialGradient.m */,
+				CCE194221B9590F500DBA3A4 /* IJSVGStyle.h */,
+				CCE194231B9590F500DBA3A4 /* IJSVGStyle.m */,
+				CCE194241B9590F500DBA3A4 /* IJSVGTransform.h */,
+				CCE194251B9590F500DBA3A4 /* IJSVGTransform.m */,
+				CCE194261B9590F500DBA3A4 /* IJSVGUtils.h */,
+				CCE194271B9590F500DBA3A4 /* IJSVGUtils.m */,
+				CCE194281B9590F500DBA3A4 /* IJSVGWriter.h */,
+				CCE194291B9590F500DBA3A4 /* IJSVGWriter.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE193C51B95832100DBA3A4 /* svg2png */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE193E61B95832100DBA3A4 /* Build configuration list for PBXNativeTarget "svg2png" */;
+			buildPhases = (
+				CCE193C21B95832100DBA3A4 /* Sources */,
+				CCE193C31B95832100DBA3A4 /* Frameworks */,
+				CCE193C41B95832100DBA3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svg2png;
+			productName = svg2png;
+			productReference = CCE193C61B95832100DBA3A4 /* svg2png.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCE193DB1B95832100DBA3A4 /* svg2pngTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE193E91B95832100DBA3A4 /* Build configuration list for PBXNativeTarget "svg2pngTests" */;
+			buildPhases = (
+				CCE193D81B95832100DBA3A4 /* Sources */,
+				CCE193D91B95832100DBA3A4 /* Frameworks */,
+				CCE193DA1B95832100DBA3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE193DE1B95832100DBA3A4 /* PBXTargetDependency */,
+			);
+			name = svg2pngTests;
+			productName = svg2pngTests;
+			productReference = CCE193DC1B95832100DBA3A4 /* svg2pngTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE193BE1B95832100DBA3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = coco;
+				TargetAttributes = {
+					CCE193C51B95832100DBA3A4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCE193DB1B95832100DBA3A4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCE193C51B95832100DBA3A4;
+					};
+				};
+			};
+			buildConfigurationList = CCE193C11B95832100DBA3A4 /* Build configuration list for PBXProject "svg2png" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE193BD1B95832100DBA3A4;
+			productRefGroup = CCE193C71B95832100DBA3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE193C51B95832100DBA3A4 /* svg2png */,
+				CCE193DB1B95832100DBA3A4 /* svg2pngTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE193C41B95832100DBA3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE193D41B95832100DBA3A4 /* Images.xcassets in Resources */,
+				CCE193D71B95832100DBA3A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE193DA1B95832100DBA3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE193C21B95832100DBA3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE194321B9590F500DBA3A4 /* IJSVGCommandCurve.m in Sources */,
+				CCE194421B9590F500DBA3A4 /* IJSVGRadialGradient.m in Sources */,
+				CCE1942C1B9590F500DBA3A4 /* IJSVGCache.m in Sources */,
+				CCE1942D1B9590F500DBA3A4 /* IJSVGColor.m in Sources */,
+				CCE194391B9590F500DBA3A4 /* IJSVGDef.m in Sources */,
+				CCE194371B9590F500DBA3A4 /* IJSVGCommandSmoothCurve.m in Sources */,
+				CCE194311B9590F500DBA3A4 /* IJSVGCommandCommandSmoothQuadraticCurve.m in Sources */,
+				CCE1943C1B9590F500DBA3A4 /* IJSVGGradient.m in Sources */,
+				CCE1943D1B9590F500DBA3A4 /* IJSVGGroup.m in Sources */,
+				CCE194491B959B7B00DBA3A4 /* DragTextField.m in Sources */,
+				CCE194431B9590F500DBA3A4 /* IJSVGStyle.m in Sources */,
+				CCE1942E1B9590F500DBA3A4 /* IJSVGCommand.m in Sources */,
+				CCE194381B9590F500DBA3A4 /* IJSVGCommandVerticalLine.m in Sources */,
+				CCE193D21B95832100DBA3A4 /* ViewController.m in Sources */,
+				CCE194351B9590F500DBA3A4 /* IJSVGCommandMove.m in Sources */,
+				CCE193CF1B95832100DBA3A4 /* main.m in Sources */,
+				CCE193EE1B958C7800DBA3A4 /* DragImageView.m in Sources */,
+				CCE194411B9590F500DBA3A4 /* IJSVGPath.m in Sources */,
+				CCE194341B9590F500DBA3A4 /* IJSVGCommandLineTo.m in Sources */,
+				CCE194461B9590F500DBA3A4 /* IJSVGWriter.m in Sources */,
+				CCE1942B1B9590F500DBA3A4 /* IJSVGBezierPathAdditions.m in Sources */,
+				CCE1943A1B9590F500DBA3A4 /* IJSVGFontConverter.m in Sources */,
+				CCE193CD1B95832100DBA3A4 /* AppDelegate.m in Sources */,
+				CCE1943E1B9590F500DBA3A4 /* IJSVGLinearGradient.m in Sources */,
+				CCE194401B9590F500DBA3A4 /* IJSVGParser.m in Sources */,
+				CCE1942F1B9590F500DBA3A4 /* IJSVGCommandArc.m in Sources */,
+				CCE194331B9590F500DBA3A4 /* IJSVGCommandHorizontalLine.m in Sources */,
+				CCE1942A1B9590F500DBA3A4 /* IJSVG.m in Sources */,
+				CCE194441B9590F500DBA3A4 /* IJSVGTransform.m in Sources */,
+				CCE194451B9590F500DBA3A4 /* IJSVGUtils.m in Sources */,
+				CCE194301B9590F500DBA3A4 /* IJSVGCommandClose.m in Sources */,
+				CCE194361B9590F500DBA3A4 /* IJSVGCommandQuadraticCurve.m in Sources */,
+				CCE1943B1B9590F500DBA3A4 /* IJSVGForeignObject.m in Sources */,
+				CCE1943F1B9590F500DBA3A4 /* IJSVGNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE193D81B95832100DBA3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE193E31B95832100DBA3A4 /* svg2pngTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCE193DE1B95832100DBA3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCE193C51B95832100DBA3A4 /* svg2png */;
+			targetProxy = CCE193DD1B95832100DBA3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCE193D51B95832100DBA3A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE193D61B95832100DBA3A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE193E41B95832100DBA3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCE193E51B95832100DBA3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCE193E71B95832100DBA3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = svg2png/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCE193E81B95832100DBA3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = svg2png/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCE193EA1B95832100DBA3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = svg2pngTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svg2png.app/Contents/MacOS/svg2png";
+			};
+			name = Debug;
+		};
+		CCE193EB1B95832100DBA3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = svg2pngTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svg2png.app/Contents/MacOS/svg2png";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE193C11B95832100DBA3A4 /* Build configuration list for PBXProject "svg2png" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE193E41B95832100DBA3A4 /* Debug */,
+				CCE193E51B95832100DBA3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE193E61B95832100DBA3A4 /* Build configuration list for PBXNativeTarget "svg2png" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE193E71B95832100DBA3A4 /* Debug */,
+				CCE193E81B95832100DBA3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCE193E91B95832100DBA3A4 /* Build configuration list for PBXNativeTarget "svg2pngTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE193EA1B95832100DBA3A4 /* Debug */,
+				CCE193EB1B95832100DBA3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE193BE1B95832100DBA3A4 /* Project object */;
+}
